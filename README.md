@@ -2,7 +2,8 @@
 
 I built a web application that scrapes various websites for data related to the Mars and displays the information in a single HTML page. 
 
-1. Scraping:
+## 1. Scraping:
+
 Initial scraping was done using Jupyter Notebook, BeautifulSoup, Pandas, Requests/Splinter. Scraping was done on following websites:
 
 NASA Mars News Site: Latest news title and paragraph text was scrapped and assigned to variables
@@ -16,7 +17,7 @@ Mars facts: Used pandas to convert the data to a HTML table string
 
 USGS Astrogeology site: navigated, obtained image url, and image title of Mar's hemisphere as dictionary. 
 
-2. MongoDB and flask application:
+## 2. MongoDB and flask application:
 
 Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
